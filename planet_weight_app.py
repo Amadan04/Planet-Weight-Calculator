@@ -7,7 +7,7 @@ import streamlit as st
 st.set_page_config(page_title="Weight on Other Planets", page_icon="🪐", layout="centered")
 
 st.title("🪐 Weight on Other Planets")
-st.write("Enter your weight on **Earth** and see what you'd weigh on other worlds.")
+st.write("Enter your weight on **Earth** to know what you'd weigh on other worlds.")
 
 # Approximate surface gravity ratios relative to Earth
 GRAVITY = {
@@ -46,7 +46,7 @@ if submitted:
             ratio = GRAVITY[planet]
             w = convert(earth_weight, ratio)
             rows.append({"Planet": planet, f"Weight ({unit})": round(w, 2), "Gravity×Earth": ratio})
-        st.success("Done!")
+        st.success("Successfully done!")
         st.dataframe(rows, hide_index=True, use_container_width=True)
 
         # Fun note
