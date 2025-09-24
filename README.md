@@ -1,12 +1,21 @@
 # Swen-Lab
 
-Project idea and how it helps NASA/space.
-o Technologies/tools used (can be simple).
-o How to run or use the project (steps).
+Project Idea: A simple Streamlit app that calculates your weight on other planets based on your Earth weight.
 
+# Requirements
+- Python 3.8 or higher
+- [Streamlit](https://streamlit.io/)
 
-Project Idea : Wight on other planets, Calulating the user weight on other planets using his earth weight.
+# Steps to run:
+1. Clone this repository and install the dependencies:
+   - git clone https://github.com/your-username/planet-weight-app.git
+   - cd planet-weight-app
+2. Install streamlit :
+   - pip install streamlit
+3. To run:
+   - streamlit run planet_weight_app.py
 
-Technologies and tools used : Python
-
-How to run:
+# How to use:
+1. Enter your weight on Earth (kg or lb).
+2. Select one or more planets (or leave empty to calculate for all).
+3. See your weight on different planets in a nice interactive table.
