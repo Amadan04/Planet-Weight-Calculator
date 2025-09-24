@@ -38,7 +38,7 @@ def convert(weight, ratio):
 
 if submitted:
     if earth_weight <= 0:
-        st.error("Please enter a weight greater than 0.")
+        st.error("Please enter a weight greater than zero.")
     else:
         rows = []
         targets = selected if selected else GRAVITY.keys()
@@ -51,7 +51,7 @@ if submitted:
 
         # Fun note
         if "Jupiter" in targets and earth_weight > 0:
-            st.caption("Fun fact: Jupiter’s strong gravity makes you feel more than **2×** as heavy!")
+            st.caption("Fun fact: Did you know that Jupiter’s strong gravity makes you feel more than **2×** as heavy?")
 
 st.divider()
 st.caption("These are approximate ratios based on average surface gravity.")
