@@ -1,6 +1,7 @@
-# Swen-Lab
 
-Project Idea: A simple Streamlit app that calculates your weight on other planets based on your Earth weight.
+
+# Project Idea: 
+A simple Streamlit app that calculates your weight on other planets based on your Earth weight.
 
 # Requirements
 - Python 3.8 or higher
